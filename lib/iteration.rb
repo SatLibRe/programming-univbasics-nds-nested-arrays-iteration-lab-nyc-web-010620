@@ -22,9 +22,10 @@ def total_even_pairs(src)
 total = 0 
 i = 0 
   while i < src.length do 
-    total += src[i]
+    total += src[i][0] + src[i][1]
     i += 1
   end 
+  return total 
 end
 
 # src = [[86262, 58115],aysContainingPairsOfNumbers>)> src
